@@ -1,6 +1,6 @@
 .styles {
-  width: 400px;
-  height: 440px;
+  width: 100%;
+  height: auto;
 }
 
 .container {
@@ -8,8 +8,16 @@
   flex-wrap: wrap;
 }
 
-.card {
-  flex-basis: 33.33%;
+.carrousel {
+  position: 'relative';
+  width: 100%;
 }
+
+.cartasaling{
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;  
+}
+
 
 
